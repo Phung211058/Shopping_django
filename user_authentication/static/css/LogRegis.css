@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 20%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+main{
+    width: 94%;
+    position:absolute;
+    top: 5%;
+    left: 3%;
+    z-index: 0;
+}
+
+.navbar{
+    height: 60%;
+}
+.menu_items{
+    height: 32%;
+    background-color:rgb(82, 174, 204);
+}
+.logo{
+    margin:  0 0 0 15%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+.search_bar{
+    outline: none;
+    border-color: aqua;
+    box-shadow: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vh;
+    border-radius: 3px;
+}
+a{
+    text-decoration: none;
+}
+.item_list:hover{
+    background: linear-gradient(to right, #1d5ab0 0%, #05036d 100%); 
+    background-clip: text;
+    color: transparent;
+}
+.item_icon{
+    background: linear-gradient(to right, rgb(134, 134, 234) 0%, rgb(38, 38, 242) 100%); 
+    background-clip: text;
+    color: transparent;
+}
+.account_icon{
+    background: linear-gradient(to right, rgb(66, 37, 228) 0%, rgba(16, 3, 101, 0.863) 100%); 
+    background-clip: text;
+    color: transparent;
+}
+.menu_link{
+    background: linear-gradient(to right, chocolate 0%, #330867 100%); 
+    background-clip: text;
+    color: transparent;
+}
+.menu_icon{
+    background: linear-gradient(to right, chocolate 0%, #330867 100%); 
+    background-clip: text;
+    color: transparent;
+}
+.menu_link:hover{
+    background: linear-gradient(to right, #330867 0%, chocolate 100%); 
+    background-clip: text;
+    color: transparent;
+}
+.menu_icon:hover{
+    background: linear-gradient(to right, #330867 0%, chocolate 100%); 
+    background-clip: text;
+    color: transparent;
+}
+/* .menu_span{
+    background: linear-gradient(to right, chocolate 0%, #330867 100%); 
+    background-clip: text;
+    color: transparent;
+} */
+.search_btn{
+    width: 4vw;
+    height: 5.5vh;
+    outline: none;
+    border: none; 
+    border-radius: 3px; 
+    background-image: linear-gradient(aqua, dodgerblue);
+}
+.search_btn:hover{
+    background-image: linear-gradient(dodgerblue, deepskyblue);
+}
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #1d5ab0;
+}
+.cover{
+    width: 35%;
+    margin-top: 2%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.surname_box{
+    position: relative;
+}
+.surname_label{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    color: rgb(122, 118, 118);
+    user-select: none;
+    pointer-events: none;
+}
+.in_surname{
+    width: 100%;
+    height: 7vh;
+    margin-top: 0;
+    background-color: rgb(237, 235, 235);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #040260;
+}
+.in_surname:not(:placeholder-shown) + .surname_label,
+.in_surname:focus+.surname_label{
+    top: -14px;
+    background-image: linear-gradient(to top, rgb(247, 245, 245) 0%, white 100%); 
+    color: rgb(57, 57, 237);
+    transition: 0.2s;
+    border-radius: 50%;
+}
+.in_surname:focus{
+    background-color: rgb(250, 248, 248);
+    border: 1px solid rgb(57, 57, 237);
+    transition: 0.3s;
+}
+.gender_radio{
+    accent-color: rgb(102, 7, 7);
+}
+.register_btn{
+    width: 35%;
+    height: 5.75vh;
+    border: none;
+    outline: none;
+    background-color: #1d5ab0;
+    color: white;
+    border-radius: 4px;
+}

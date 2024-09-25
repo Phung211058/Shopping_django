@@ -1,0 +1,19 @@
+.header {
+    position: fixed; /* Giữ thanh tab bar cố định */
+    top: 0; /* Đặt ở trên cùng */
+    left: 0; /* Đặt ở bên trái */
+    width: 200px; /* Chiều rộng của tab bar */
+    height: 100vh; /* Chiều cao đầy đủ của viewport */
+    background-color: #007bff; /* Màu nền */
+    color: white; /* Màu chữ */
+    display: flex; /* Để có thể dễ dàng căn chỉnh các thành phần bên trong */
+    flex-direction: column; /* Xếp theo chiều dọc */
+}
+
+body {
+    background-color: #dee9ff;
+    padding-left: 200px; /* Cung cấp khoảng trống cho thanh tab bar */
+}
+main{
+    width: 100%;
+}
